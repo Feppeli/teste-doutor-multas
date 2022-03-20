@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- API -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/fipe-promise/dist/fipe-promise.min.js"></script>
 
     <link rel="stylesheet" href="./styles/global.css">
@@ -23,28 +24,24 @@
             <h1>Seu veículo</h1>
         </div>
     </main>
-    <div id="carBox">
-        <form class="veiculos" >
-            <label  for="fabricante">Fabricante</label>
-            <select id="fabricante" name="fabricante">
-                <option value="Alfa Romeo">Alfa Romeo</option>
-                <option value="Caoa Chery">Caoa, Chery</option>
-                <option value="Chevrolet">Chevrolet</option>
-                <option value="Fiat">Fiat</option>
-                <option value="Ford">Ford</option>
-                <option value="Hyundai">Hyundai</option>
-                <option value="Land Rove">Land Rover</option>
-                <option value="Mercedes Benz">Mercedes Benz</option>
-                <option value="Opel">Opel</option>
-                <option value="Renault">Renault</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Volkswagen">Volkswagen</option>
-            </select>
-            <button type="button" onclick="getFabricateOption()">Enviar</button>
-        </form>
-            
+    
+    <div>
+        <select id="Veículo">
+            <option value="Moto">Moto</option>
+            <option value="carro">carro</option>
+            <option value="Caminhão">caminhão</option>
+        </select>
+        <select id="marcas">
+        </select>
+        <select id="modelos">
+        </select>
+        <select id="ano">
+        </select>
+    </div>
 
+    
     <script src="./script/script.js"></script>
+    <script src="./script/main.js"></script>
     
 </body>
 </html>
