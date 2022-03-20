@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- API -->
+    <script src="https://cdn.jsdelivr.net/npm/fipe-promise/dist/fipe-promise.min.js"></script>
+
     <link rel="stylesheet" href="./styles/global.css">
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -21,26 +24,27 @@
         </div>
     </main>
     <div id="carBox">
-        <details class="veiculos" >
-            <summary>
-                <h3>carro</h3>
-            </summary>
-            <p>carros</p>
-        </details>
-        <details class="veiculos" >
-            <summary>
-                <h3>Motos</h3>
-            </summary>
-            <p>carros</p>
-        </details>
-        <details class="veiculos" >
-            <summary>
-                <h3>carro</h3>
-            </summary>
-            <p>caminhão</p>
-        </details>
+        <form class="veiculos" >
+            <label  for="fabricante">Fabricante</label>
+            <select id="fabricante" name="fabricante">
+                <option value="Alfa Romeo">Alfa Romeo</option>
+                <option value="Caoa Chery">Caoa, Chery</option>
+                <option value="Chevrolet">Chevrolet</option>
+                <option value="Fiat">Fiat</option>
+                <option value="Ford">Ford</option>
+                <option value="Hyundai">Hyundai</option>
+                <option value="Land Rove">Land Rover</option>
+                <option value="Mercedes Benz">Mercedes Benz</option>
+                <option value="Opel">Opel</option>
+                <option value="Renault">Renault</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Volkswagen">Volkswagen</option>
+            </select>
+            <button type="button" onclick="getFabricateOption()">Enviar</button>
+        </form>
+            
 
-        
-    </div>
+    <script src="./script/script.js"></script>
+    
 </body>
 </html>

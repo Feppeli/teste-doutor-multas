@@ -1,0 +1,16 @@
+function fazGet(url){
+    let request = new XMLHttpRequest()
+    request.open("GET", url, false)
+    request.send('')
+    return request.responseText
+}
+
+function criarLinha(usuario){
+
+}
+
+function main(){
+    console.log(fazGet('https://parallelum.com.br/fipe/api/v2/{vehicleType}/brands'))
+}
+
+main()
