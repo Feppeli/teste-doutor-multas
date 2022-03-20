@@ -25,12 +25,17 @@
         </div>
     </main>
     
-    <div>
-        <select id="Veículo">
-            <option value="Moto">Moto</option>
-            <option value="carro">carro</option>
-            <option value="Caminhão">caminhão</option>
-        </select>
+    <div class="cxVeiculos">
+        <div>
+            <select id="veiculo">
+                <option value="carro" selected>Carro</option>
+                <option value="Moto">Moto</option>
+                <option value="Caminhão">Caminhão</option>
+            </select>
+            <button onclick="getSelectVeiculo()">Submit</button>
+        </div>
+
+
         <select id="marcas">
         </select>
         <select id="modelos">

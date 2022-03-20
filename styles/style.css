@@ -38,3 +38,8 @@ main{
 .veiculos h3, p{
     color: #fff;
 }
+
+.cxVeiculos{
+    display: flex;
+    flex-direction: column;
+}
