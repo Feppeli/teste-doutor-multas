@@ -1,8 +1,8 @@
 $(document).ready(function () {
-  var urlBase = `//fipe.parallelum.com.br/api/v1/motos/marcas`;
+  var  urlBase = `//fipe.parallelum.com.br/api/v1/carro/marcas`;
+
 
   /** Marcas**/
-
   $.getJSON(urlBase, function (data) {
     var items = ["<option value=\"\">ESCOLHA UMA MARCA</option>"];
     $.each(data, function (key, val) {
@@ -39,12 +39,4 @@ $(document).ready(function () {
 });
 
 
-// # Tipo de  veículo
-function getSelectVeiculo() {
-  let selectVeiculos = document.querySelector('#veiculo')
-  console.log(selectVeiculos)
 
-  let selectVeiculosValue = selectVeiculos.options[selectVeiculos.selectedIndex].value;
-  console.log(selectVeiculosValue)
-  console.log(typeof(selectVeiculosValue))
-}

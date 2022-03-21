@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.cxModelos{
+    background: #0171BC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    text-align: center;
+
+
+}
+
+
+.cxModelos h3{
+    color: #fff;
+}
+
+select {
+    height: 18vh;
+}

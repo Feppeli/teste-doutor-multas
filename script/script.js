@@ -1,15 +1,15 @@
-const fabricantes = [
-    'Alfa Romeo', 'Caoa, Chery',
-    'Chevrolet',  'Fiat',
-    'Ford',       'Hyundai',
-    'Land Rover', 'Mercedes Benz',
-    'Opel',       'Renault',
-    'Toyota',     'Volkswagen'
-]
+function creatPage(){
 
-function getFabricateOption(){
-    var select = document.getElementById('fabricante')
-    var value = select.options[select.selectedIndex].value;
-    
-    console.log(value)
+    // Recebendo o valor do veículo
+    var veiculo = document.querySelector('#veiculo')
+    var veiculoValue = veiculo.options[veiculo.selectedIndex].value;
+    console.log(veiculoValue)
+
+
+    // mostrando a página de acordo com o valor do veiculo
+    var redirecionandoHtml = document.createElement("div");
+    redirecionandoHtml.innerHTML = `
+    <object type="text/html" data="./paginasApi/${veiculoValue}.html"></object>
+    `
+    document.getElementById('paginaFipe').appendChild(redirecionandoHtml)
 }

@@ -24,29 +24,17 @@
             <h1>Seu veículo</h1>
         </div>
     </main>
-    
-    <div class="cxVeiculos">
-        <div>
-            <select id="veiculo">
-                <option value="carro" selected>Carro</option>
-                <option value="Moto">Moto</option>
-                <option value="Caminhão">Caminhão</option>
-            </select>
-            <button onclick="getSelectVeiculo()">Submit</button>
-        </div>
+
+    <section id="htmls">
+        <object type="text/html" data="./paginasApi/carro.html"></object>
+        <object type="text/html" data="./paginasApi/moto.html"></object>
+        <object type="text/html" data="./paginasApi/caminhão.html"></object>
+    </section>
 
 
-        <select id="marcas">
-        </select>
-        <select id="modelos">
-        </select>
-        <select id="ano">
-        </select>
-    </div>
 
-    
     <script src="./script/script.js"></script>
-    <script src="./script/main.js"></script>
+    <!--<script src="./script/main.js"></script>-->
     
 </body>
 </html>
