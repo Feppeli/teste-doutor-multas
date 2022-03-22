@@ -15,3 +15,38 @@
 - 13: Eu sempre testo a responsividade do Front e vou clicando de botão em botão para testar a funcionalidade, logo em seguida eu mando pra teste(Meu grupo de amigos serviu como QA até então), mas eu etendo da sigilosidade de um código e não compartilharia com pessoas fora da empresa sem autorização.
 - 14: Tiraria um minuto de brainstorm para ver qual feature eu poderia sugerir ao time e que eu pudesse implemtar seja no tempo que me resta ou com o tempo proposto, e testaria o meu código.(pretendo estudar testes automatizados em breve, sei quão importante é ter um aceleramente prévio de testes).
 - 15: [Felipe Deschamp](https://www.youtube.com/c/FilipeDeschamps), [DevSoutinho](https://www.youtube.com/c/DevSoutinho), [Fabio Akita](https://www.youtube.com/c/FabioAkita1990)
+
+
+
+## Parte 2 - Desafio prático
+## Instalação
+
+- Para visualizar a pagina é preciso clonar o repositório para um repositório local. e iniciar o index.html contido dentro do repositório.
+
+- Se estiver com o Visual studio code aberto. Abra o repositório local e em seguida abra o Open live server. A extensão pode ser encontrada dentro do próprio vscode.
+
+
+## Tecnologias Utilizadas
+
+- Javascript
+- Html
+- CSS
+
+### Utilitários e APIs
+
+- jQuery
+- Ajax
+
+### Fontes
+
+- Stack over flow
+- MDN
+- w3Schools
+
+### Meotodos:
+
+- MVP
+- Mobile First
+
+## Desenvolvimento
+- Desenvolvimento by [Felipe Teixeira](https://www.instagram.com/lipecode/)
