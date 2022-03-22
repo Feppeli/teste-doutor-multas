@@ -17,11 +17,16 @@
 
 }
 
-
 .cxModelos h3{
     color: #fff;
 }
 
 select {
     height: 18vh;
+}
+
+@media(min-width: 1000px){
+    #cxModelos{
+        height: 700px;
+    }
 }

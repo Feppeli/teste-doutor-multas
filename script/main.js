@@ -36,6 +36,17 @@ $(document).ready(function () {
     });
   });
 
+  $("#valor").change(function () {
+    $.getJSON(urlBase + "/" + jQuery("#marcas").val() + "/" + "modelos" + "/" + jQuery("#modelos").val() + "/" + "anos" + "valor", function (data) {
+      var items = ["<div class='descricao'></div>"];
+      $.each(data, function (key, val) {
+        console.log(data)
+        items += ("<div class='descricao'" + val.codigo + "'>" + val.nome + val.valor + "</div>");
+      });
+      $("#ano").html(items);
+    });
+  });
+
 });
 
 
