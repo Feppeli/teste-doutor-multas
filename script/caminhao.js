@@ -16,7 +16,7 @@ $(document).ready(function () {
     $("#marcas").change(function () {
       $.getJSON(urlBase + "/" + jQuery("#marcas").val() + "/" + "modelos", function (data) {
         var items = ["<option value=\"\">ESCOLHA UM VEICULO</option>"];
-        $.each(data.modelos, function (key, val) {
+        $.each(data.modelos.reverse(), function (key, val) {
           items += ("<option value='" + val.codigo + "'>" + val.nome + "</option>");
         });
         $("#modelos").html(items);
