@@ -21,10 +21,7 @@
 ## Parte 2 - Desafio prático
 ## Instalação
 
-- Para visualizar a pagina é preciso clonar o repositório para um repositório local. e iniciar o index.html contido dentro do repositório.
-
-- Se estiver com o Visual studio code aberto. Abra o repositório local e em seguida abra o Open live server. A extensão pode ser encontrada dentro do próprio vscode.
-
+- No VS Code instale a extenção Open Live Server abra a aba index.html, clique com o botão direito do mouse, logo em seguida clique em Open With Live Server e a página irá abrir com todas as funcionalidades no seu navegador padrão.
 
 ## Tecnologias Utilizadas
 
